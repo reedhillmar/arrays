@@ -25,3 +25,8 @@ After running trivia_answers.shift the first element, index position 0, is remov
 In this case, what was initially the second instance of element "true" is shifted from index position 1 to index position 0.
 =end
 
+=begin
+array.insert() can be used to insert new elements into the array at a defined index position
+the below command will add the elemets "Broncos" and "Steelers" between "Vikings" and "Bears"
+=end
+nfl_teams.insert(1, "Broncos", "Steelers")
